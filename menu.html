@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Menu - Raghavendra Cafe</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+
+/* Menu Layout */
+
+.menu-container{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.menu-section{
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+overflow:hidden;
+}
+
+.menu-title{
+background:#0a8f3c;
+color:white;
+padding:15px;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+}
+
+.menu-item{
+display:flex;
+justify-content:space-between;
+padding:12px 15px;
+border-bottom:1px solid #eee;
+}
+
+.menu-item:last-child{
+border-bottom:none;
+}
+
+.price{
+color:red;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="Index.html">Home</a>
+<a href="menu.html">Menu</a>
+<a href="gallery.html">Gallery</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<h2 style="text-align:center;margin-top:20px;">OUR MENU</h2>
+
+<div class="menu-container">
+
+<!-- PIZZA -->
+<div class="menu-section">
+<div class="menu-title">PIZZA</div>
+
+<div class="menu-item"><span>Veg Cheese Pizza</span><span class="price">120</span></div>
+<div class="menu-item"><span>Corn Cheese Pizza</span><span class="price">140</span></div>
+<div class="menu-item"><span>Paneer Cheese Pizza</span><span class="price">160</span></div>
+<div class="menu-item"><span>Mushroom Cheese Pizza</span><span class="price">180</span></div>
+<div class="menu-item"><span>Baby Corn Cheese Pizza</span><span class="price">180</span></div>
+<div class="menu-item"><span>Paneer Mushroom Pizza</span><span class="price">200</span></div>
+<div class="menu-item"><span>Fully Loaded Special Pizza</span><span class="price">220</span></div>
+
+</div>
+
+<!-- BURGER -->
+<div class="menu-section">
+<div class="menu-title">BURGER</div>
+
+<div class="menu-item"><span>Veg Cheese Burger</span><span class="price">80</span></div>
+<div class="menu-item"><span>Corn Cheese Burger</span><span class="price">100</span></div>
+<div class="menu-item"><span>Peri Peri Cheese Burger</span><span class="price">100</span></div>
+<div class="menu-item"><span>Paneer Cheese Burger</span><span class="price">120</span></div>
+<div class="menu-item"><span>Mushroom Cheese Burger</span><span class="price">140</span></div>
+
+</div>
+
+<!-- MILKSHAKES -->
+<div class="menu-section">
+<div class="menu-title">MILKSHAKES</div>
+
+<div class="menu-item"><span>Vanilla / Strawberry</span><span class="price">60</span></div>
+<div class="menu-item"><span>Banana Milkshake</span><span class="price">60</span></div>
+<div class="menu-item"><span>Oreo / Kitkat Milkshake</span><span class="price">60</span></div>
+<div class="menu-item"><span>Chocolate Milkshake</span><span class="price">80</span></div>
+<div class="menu-item"><span>Dry Fruits Milkshake</span><span class="price">100</span></div>
+
+</div>
+
+<!-- MOMOS -->
+<div class="menu-section">
+<div class="menu-title">MOMOS</div>
+
+<div class="menu-item"><span>Mix Veg Momos</span><span class="price">60</span></div>
+<div class="menu-item"><span>Corn Momos</span><span class="price">60</span></div>
+<div class="menu-item"><span>Paneer Tikka Momos</span><span class="price">80</span></div>
+
+</div>
+
+</div>
+
+<footer>
+<p>© Raghavendra Cafe</p>
+</footer>
+
+</body>
+</html>
