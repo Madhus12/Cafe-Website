@@ -2,6 +2,9 @@ body{
 font-family:Arial, sans-serif;
 margin:0;
 background:#fafafa;
+display:flex;
+flex-direction:column;
+min-height:100vh;
 }
 
 nav{
@@ -43,7 +46,7 @@ background:#111;
 color:white;
 text-align:center;
 padding:20px;
-margin-top:30px;
+margin-top:auto;
 }
 
 .slider{
